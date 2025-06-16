@@ -1,0 +1,2003 @@
+{
+  "id": "685066453c6a72169b81d403",
+  "folderId": "",
+  "title": "Prompt Enhancer — copy",
+  "description": "\nIt creates a state-of-the-art, precise prompt that vastly enhances LLM output. Give it a try.",
+  "nodes": [
+    {
+      "id": "685066453c6a72169b81d3fb",
+      "title": "",
+      "description": "",
+      "localId": "1",
+      "typeId": "658d5d2450a89e318a0d717b",
+      "params": [
+        {
+          "key": "content",
+          "type": "text",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "Enter a task to create a usable system message for LLMs.",
+            "text": "Enter a task to create a usable system message for LLMs.",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "width",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "height",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        }
+      ],
+      "coords": {
+        "x": 124,
+        "y": 174
+      },
+      "calculatedNodeType": {
+        "id": "",
+        "name": "",
+        "alias": "",
+        "description": "",
+        "descriptionAttention": "",
+        "params": [
+          {
+            "key": "content",
+            "title": "",
+            "type": "text",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "width",
+            "title": "",
+            "type": "int",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "height",
+            "title": "",
+            "type": "int",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          }
+        ],
+        "systemInfo": null,
+        "icon": null,
+        "purposes": [],
+        "isPublic": false,
+        "billing": null
+      }
+    },
+    {
+      "id": "685066453c6a72169b81d3fc",
+      "title": "",
+      "description": "",
+      "localId": "2",
+      "typeId": "649e9700f1d01c605618af05",
+      "params": [
+        {
+          "key": "variables",
+          "type": "string_to_string",
+          "value": {
+            "stringToString": [
+              {
+                "key": "task",
+                "value": "The user provides a topic, you will create a short questionnaire with 10 multiple-choice questions. Each question should have three answer options."
+              }
+            ],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        }
+      ],
+      "coords": {
+        "x": 154,
+        "y": 63
+      },
+      "calculatedNodeType": {
+        "id": "",
+        "name": "",
+        "alias": "",
+        "description": "",
+        "descriptionAttention": "",
+        "params": [
+          {
+            "key": "variables",
+            "title": "Variables",
+            "type": "string_to_string",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          }
+        ],
+        "systemInfo": null,
+        "icon": null,
+        "purposes": [],
+        "isPublic": false,
+        "billing": null
+      }
+    },
+    {
+      "id": "685066453c6a72169b81d3fd",
+      "title": "",
+      "description": "",
+      "localId": "3",
+      "typeId": "658ebb97261a2c01f648d4bd",
+      "params": [],
+      "coords": {
+        "x": 0,
+        "y": 63
+      },
+      "calculatedNodeType": {
+        "id": "",
+        "name": "",
+        "alias": "",
+        "description": "",
+        "descriptionAttention": "",
+        "params": [],
+        "systemInfo": null,
+        "icon": null,
+        "purposes": [],
+        "isPublic": false,
+        "billing": null
+      }
+    },
+    {
+      "id": "685066453c6a72169b81d3fe",
+      "title": "",
+      "description": "",
+      "localId": "5",
+      "typeId": "658d5d2450a89e318a0d717b",
+      "params": [
+        {
+          "key": "content",
+          "type": "text",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "Generate a concise professional description suitable for solving the given task.",
+            "text": "Generate a concise professional description suitable for solving the given task.",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "width",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "height",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        }
+      ],
+      "coords": {
+        "x": 293,
+        "y": 171
+      },
+      "calculatedNodeType": {
+        "id": "",
+        "name": "",
+        "alias": "",
+        "description": "",
+        "descriptionAttention": "",
+        "params": [
+          {
+            "key": "content",
+            "title": "",
+            "type": "text",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "width",
+            "title": "",
+            "type": "int",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "height",
+            "title": "",
+            "type": "int",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          }
+        ],
+        "systemInfo": null,
+        "icon": null,
+        "purposes": [],
+        "isPublic": false,
+        "billing": null
+      }
+    },
+    {
+      "id": "685066453c6a72169b81d3ff",
+      "title": "",
+      "description": "",
+      "localId": "7",
+      "typeId": "649e9700f1d01c605618af05",
+      "params": [
+        {
+          "key": "variables",
+          "type": "string_to_string",
+          "value": {
+            "stringToString": [
+              {
+                "key": "prompt",
+                "value": " {{$10.result.choices.[0].message.content}}\r"
+              }
+            ],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        }
+      ],
+      "coords": {
+        "x": 456,
+        "y": 63
+      },
+      "calculatedNodeType": {
+        "id": "",
+        "name": "",
+        "alias": "",
+        "description": "",
+        "descriptionAttention": "",
+        "params": [
+          {
+            "key": "variables",
+            "title": "Variables",
+            "type": "string_to_string",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          }
+        ],
+        "systemInfo": null,
+        "icon": null,
+        "purposes": [],
+        "isPublic": false,
+        "billing": null
+      }
+    },
+    {
+      "id": "685066453c6a72169b81d400",
+      "title": "",
+      "description": "",
+      "localId": "9",
+      "typeId": "658d5d2450a89e318a0d717b",
+      "params": [
+        {
+          "key": "content",
+          "type": "text",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "Output the finalized prompt for further usage or review.",
+            "text": "Output the finalized prompt for further usage or review.",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "width",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "height",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        }
+      ],
+      "coords": {
+        "x": 447,
+        "y": 169
+      },
+      "calculatedNodeType": {
+        "id": "",
+        "name": "",
+        "alias": "",
+        "description": "",
+        "descriptionAttention": "",
+        "params": [
+          {
+            "key": "content",
+            "title": "",
+            "type": "text",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "width",
+            "title": "",
+            "type": "int",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "height",
+            "title": "",
+            "type": "int",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          }
+        ],
+        "systemInfo": null,
+        "icon": null,
+        "purposes": [],
+        "isPublic": false,
+        "billing": null
+      }
+    },
+    {
+      "id": "685066453c6a72169b81d401",
+      "title": "",
+      "description": "",
+      "localId": "10",
+      "typeId": "668e5696f39d9d00ab2a75c4",
+      "params": [
+        {
+          "key": "model",
+          "type": "select",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [
+              "gpt-4o"
+            ],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "user_prompt",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "The user will send you a task or a question:\n\nuser message:{{$2.task}}\n\r\nYour task: \r\n{Role} = Make a description of a professional who could most effectively solve this problem. The description of a professional should be as short as possible.\r\nThe description of a professional should be done like this: \"You are ...\" \r\n\r\n__________\r\n\r\n{Context} = If there is any additional information in the task that is important as a context, then write it down here in a list.  If there is no such important information, then skip this block completely.\r\n\r\n__________\r\n\r\n{Input data} =  Then describe separately what data the user will transmit (the data set must necessarily correspond to the task that the user will describe). It is forbidden to ask for more information than is indicated in the task. Come up with the minimum possible set of data from the user with which you would be able to cope with the task (if there is 1 point, this is normal). The description of data should be done like this: \"The user will send: ...\" \r\n\r\n__________\r\n{Task} = Then separately formulate a user task or question as a task for a neural network that you yourself could perform. Add to the list only those items that you are able to complete yourself, without external user intervention or contacting other people. The task should be formulated for a single (and not regular) performance of this task. Make sure that the task is formulated as generally as possible and could be used for similar tasks (for example: if a user asks to write a report on a specific topic, then the task does not need to describe the actions that are suitable specifically for this topic of the report, it is necessary to describe the steps applicable to writing any report at all). In the task, it is necessary to describe only the actions that can be performed with the text.\r\n\r\nIf necessary, also add items describing what strictly should not be in the final result. If the user described something in the task that should not be the result, then these requirements must be strictly prescribed in the final description of the task. If necessary, describe a set of forbidding actions or possible answers. If there are any prohibitions in the user task, be sure to write them in separate paragraphs in the Task block\r\n\r\nAdd the following item to the execution plan: \"Do not write any introductory words, afterword or additional information.\"\r\n\r\nIn tasks for sorting the result, do not describe the sequence of actions. In such tasks, identify the selection criteria and describe in detail how to identify each of the possible cases or options, as well as pay attention to a clear response format. It is important to describe the instructions on how to recognize one or another option. If possible, describe in detail how (by what criteria) one or another option can be recognized.\r\n\r\nIf the task describes that you know something in advance (or just \"know in advance\"), then do not write that the user will send this information, but add this information to the Context block. Write the rest of the task as if you already know the information in this block.\r\n\r\n__________\r\n\r\nLanguage\r\n\r\nIt is necessary to choose which of the situations is most suitable for the user's task and act in accordance with the descriptions. Such situations are possible:\r\n1) The user has clearly described in his task in which language it is necessary to answer. Then {Language} = Your answer must be written in {the language specified by the user}.\r\nExample: \"Always answer only in English, regardless of the user's request.\"\r\n\r\n2) User's task is related to translation. Then {Language} = describe the conditions of translation, from which language to which translation is required.\r\nExample: \"Translate from Russian to English, the answer should be in English.\"\r\n\r\n3) If there are no language instructions in the content of the question or task, then {Language} = Describe that it is necessary to answer in the same language in which the user writes (without mentioning specific names of languages). Example: \"Your answer should be written in the user's language.\" This instruction should be performed only if the user task does not clearly indicate the language to be answered or a request for translation from one language to another. \r\n\r\n__________\r\n\r\n{Result} = Then write separately and briefly what should be written as a result. For example: \"Result: Only list of tags separated with commas.\" Next, demand that the answer contains nothing but the desired result.\r\n\r\nYour answer should be in English.\r\n\r\n\r\n__________\r\n\r\n\r\nThe final answer should look like this:\r\n###Role###\r\n{Role}\r\n\r\n###Context###\r\n{Context}\r\n\r\n###Input data###\r\n{Input data}\r\n\r\n###Task###\r\n{Task}\r\n{Language}\r\n\r\n###Result###\r\n{Result}",
+            "text": "The user will send you a task or a question:\n\nuser message:{{$2.task}}\n\r\nYour task: \r\n{Role} = Make a description of a professional who could most effectively solve this problem. The description of a professional should be as short as possible.\r\nThe description of a professional should be done like this: \"You are ...\" \r\n\r\n__________\r\n\r\n{Context} = If there is any additional information in the task that is important as a context, then write it down here in a list.  If there is no such important information, then skip this block completely.\r\n\r\n__________\r\n\r\n{Input data} =  Then describe separately what data the user will transmit (the data set must necessarily correspond to the task that the user will describe). It is forbidden to ask for more information than is indicated in the task. Come up with the minimum possible set of data from the user with which you would be able to cope with the task (if there is 1 point, this is normal). The description of data should be done like this: \"The user will send: ...\" \r\n\r\n__________\r\n{Task} = Then separately formulate a user task or question as a task for a neural network that you yourself could perform. Add to the list only those items that you are able to complete yourself, without external user intervention or contacting other people. The task should be formulated for a single (and not regular) performance of this task. Make sure that the task is formulated as generally as possible and could be used for similar tasks (for example: if a user asks to write a report on a specific topic, then the task does not need to describe the actions that are suitable specifically for this topic of the report, it is necessary to describe the steps applicable to writing any report at all). In the task, it is necessary to describe only the actions that can be performed with the text.\r\n\r\nIf necessary, also add items describing what strictly should not be in the final result. If the user described something in the task that should not be the result, then these requirements must be strictly prescribed in the final description of the task. If necessary, describe a set of forbidding actions or possible answers. If there are any prohibitions in the user task, be sure to write them in separate paragraphs in the Task block\r\n\r\nAdd the following item to the execution plan: \"Do not write any introductory words, afterword or additional information.\"\r\n\r\nIn tasks for sorting the result, do not describe the sequence of actions. In such tasks, identify the selection criteria and describe in detail how to identify each of the possible cases or options, as well as pay attention to a clear response format. It is important to describe the instructions on how to recognize one or another option. If possible, describe in detail how (by what criteria) one or another option can be recognized.\r\n\r\nIf the task describes that you know something in advance (or just \"know in advance\"), then do not write that the user will send this information, but add this information to the Context block. Write the rest of the task as if you already know the information in this block.\r\n\r\n__________\r\n\r\nLanguage\r\n\r\nIt is necessary to choose which of the situations is most suitable for the user's task and act in accordance with the descriptions. Such situations are possible:\r\n1) The user has clearly described in his task in which language it is necessary to answer. Then {Language} = Your answer must be written in {the language specified by the user}.\r\nExample: \"Always answer only in English, regardless of the user's request.\"\r\n\r\n2) User's task is related to translation. Then {Language} = describe the conditions of translation, from which language to which translation is required.\r\nExample: \"Translate from Russian to English, the answer should be in English.\"\r\n\r\n3) If there are no language instructions in the content of the question or task, then {Language} = Describe that it is necessary to answer in the same language in which the user writes (without mentioning specific names of languages). Example: \"Your answer should be written in the user's language.\" This instruction should be performed only if the user task does not clearly indicate the language to be answered or a request for translation from one language to another. \r\n\r\n__________\r\n\r\n{Result} = Then write separately and briefly what should be written as a result. For example: \"Result: Only list of tags separated with commas.\" Next, demand that the answer contains nothing but the desired result.\r\n\r\nYour answer should be in English.\r\n\r\n\r\n__________\r\n\r\n\r\nThe final answer should look like this:\r\n###Role###\r\n{Role}\r\n\r\n###Context###\r\n{Context}\r\n\r\n###Input data###\r\n{Input data}\r\n\r\n###Task###\r\n{Task}\r\n{Language}\r\n\r\n###Result###\r\n{Result}",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "history",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "image",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "temperature",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "1.0",
+            "text": "1.0",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "max_completion_tokens",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "4096",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "n",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "1",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "stop",
+          "type": "string_array",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "presence_penalty",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "0",
+            "text": "0",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "frequency_penalty",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "0",
+            "text": "0",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "user",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "tools",
+          "type": "string_array",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "tool_choice",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "top_p",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "1",
+            "text": "1",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "logprobs",
+          "type": "bool",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "top_logprobs",
+          "type": "string",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "response_format",
+          "type": "select",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "seed",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        }
+      ],
+      "coords": {
+        "x": 308,
+        "y": 63
+      },
+      "calculatedNodeType": {
+        "id": "",
+        "name": "",
+        "alias": "",
+        "description": "",
+        "descriptionAttention": "",
+        "params": [
+          {
+            "key": "model",
+            "title": "Model",
+            "type": "select",
+            "required": false,
+            "description": "By default, GPT 4o is selected. To find out which specific version is used for each model, [see the documentation](https://platform.openai.com/docs/models#current-model-aliases)",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": {
+                "options": [
+                  {
+                    "key": "gpt-4o",
+                    "value": "GPT 4o (2024-05-13)"
+                  }
+                ],
+                "multiple": false,
+                "fetchOn": [],
+                "withLabel": false,
+                "type": "",
+                "pagination": {
+                  "page": 0,
+                  "context": "",
+                  "supported": false
+                },
+                "query": {
+                  "value": "",
+                  "supported": false
+                }
+              },
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [
+                "gpt-4o"
+              ],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "user_prompt",
+            "title": "User Prompt",
+            "type": "string",
+            "required": false,
+            "description": "Your new question prompt: please note that at least one of the \"User Prompt\", \"Dialogue History\" or \"Image\" fields must be filled in",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "Hello ChatGPT, Let’s talk about this: {query}",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "history",
+            "title": "Dialogue History JSON",
+            "type": "string",
+            "required": false,
+            "description": "Valid JSON containing [the array of objects](https://platform.openai.com/docs/api-reference/chat/create), e.g. [{\"role\":\"user\",\"content\":\"Hello!\"}, {\"role\": \"assistant\", \"content\": \"Hi there! How can I help you today?\"}]\n\n`role` can be one of (**the roles should alternate**):\n\n`system` - the message author role is system;\n\n`user` - the message author role is user;\n\n`assistant` - the message author role is assistant;\n\n`tool` - the message author role is tool;",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "image",
+            "title": "Image",
+            "type": "string",
+            "required": false,
+            "description": "Pass the image URL (e.g. https://image.png)",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "temperature",
+            "title": "Temperature",
+            "type": "string",
+            "required": false,
+            "description": "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. We generally recommend altering this or \"Top P\" but not both.",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "1.0",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "max_completion_tokens",
+            "title": "Max Tokens",
+            "type": "int",
+            "required": false,
+            "description": "The maximum number of tokens allowed for the generated answer. By default, the number of tokens the model can return will be (4096 - prompt tokens).",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "4096",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "n",
+            "title": "Chat Completion Choices",
+            "type": "int",
+            "required": false,
+            "description": "How many chat completion choices to generate for each input message",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "1",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "stop",
+            "title": "Stop",
+            "type": "string_array",
+            "required": false,
+            "description": "Up to 4 sequences where the API will stop generating further tokens",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "presence_penalty",
+            "title": "Presence Penalty",
+            "type": "string",
+            "required": false,
+            "description": "Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "0",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "frequency_penalty",
+            "title": "Frequency Penalty",
+            "type": "string",
+            "required": false,
+            "description": "Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "0",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "user",
+            "title": "User",
+            "type": "string",
+            "required": false,
+            "description": "A unique identifier representing your end-user, which can help Azure OpenAI to monitor and detect abuse",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "tools",
+            "title": "Tools",
+            "type": "string_array",
+            "required": false,
+            "description": "Currently, only functions are supported as a tool. Accept JSON, e.g. `{\"type\": \"function\", \"function\": { \"name\": \"get_rain_probability\", \"description\": \"Get the probability of rain for a specific location\", \"parameters\": { \"type\": \"object\", \"properties\": { \"location\": { \"type\": \"string\", \"description\": \"The city and state, e.g., San Francisco, CA\" } }, \"required\": [\"location\"] } } }`. [More info](https://platform.openai.com/docs/api-reference/chat/create#chat-create-tools).",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "tool_choice",
+            "title": "Tool Choice",
+            "type": "string",
+            "required": false,
+            "description": "Controls which (if any) tool is called by the model. `none` means the model will not call any tool and instead generates a message. `auto` means the model can pick between generating a message or calling one or more tools. `required` means the model must call one or more tools. Specifying a particular tool via `{\"type\": \"function\", \"function\": {\"name\": \"get_rain_probability\"}}` forces the model to call that tool.\n\n`none` is the default when no tools are present. `auto` is the default if tools are present. *Format: JSON object.* [More info](https://platform.openai.com/docs/api-reference/chat/create#chat-create-tool_choice).",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "top_p",
+            "title": "Top P",
+            "type": "string",
+            "required": false,
+            "description": "Number between 0 and 1. An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with \"Top P\" probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered. We generally recommend altering this or \"Temperature\" but not both.",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "1",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "logprobs",
+            "title": "Log Probs",
+            "type": "bool",
+            "required": false,
+            "description": "Whether to return log probabilities of the output tokens or not. If `true`, returns the log probabilities of each output token returned in the `content` of `message`.",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "top_logprobs",
+            "title": "Top Log Probs",
+            "type": "string",
+            "required": false,
+            "description": "An integer between 0 and 5 specifying the number of most likely tokens to return at each token position, each with an associated log probability. \"Logprobs\" must be set to `true` if this parameter is used.",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "response_format",
+            "title": "Response Format",
+            "type": "select",
+            "required": false,
+            "description": "An object specifying the format that the model must output. To enable JSON mode, also mention it in the prompt. Example: 'Make a list in JSON format'.",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": {
+                "options": [],
+                "multiple": false,
+                "fetchOn": [],
+                "withLabel": false,
+                "type": "",
+                "pagination": {
+                  "page": 0,
+                  "context": "",
+                  "supported": false
+                },
+                "query": {
+                  "value": "",
+                  "supported": false
+                }
+              },
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "seed",
+            "title": "Seed",
+            "type": "int",
+            "required": false,
+            "description": "If specified, our system will make a best effort to sample deterministically, such that repeated requests with the same seed and parameters should return the same result. Determinism is not guaranteed.",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          }
+        ],
+        "systemInfo": {
+          "environment": "",
+          "isPd": true,
+          "isJsn": true,
+          "pdAvailableGetLastRecords": false
+        },
+        "icon": null,
+        "purposes": [],
+        "isPublic": false,
+        "billing": null
+      }
+    },
+    {
+      "id": "685066453c6a72169b81d402",
+      "title": "",
+      "description": "",
+      "localId": "11",
+      "typeId": "658d5d2450a89e318a0d717b",
+      "params": [
+        {
+          "key": "content",
+          "type": "text",
+          "value": {
+            "stringToString": [],
+            "int": "0",
+            "string": "# Video Guide\n\n<iframe width=\"560\" height=\"315\" \n    src=\"https://www.youtube.com/embed/6mg0AXdEr2Q\" \n    title=\"YouTube video player\" \n    frameborder=\"0\" \n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" \n    allowfullscreen>\n</iframe>\n",
+            "text": "# Video Guide\n\n<iframe width=\"560\" height=\"315\" \n    src=\"https://www.youtube.com/embed/6mg0AXdEr2Q\" \n    title=\"YouTube video player\" \n    frameborder=\"0\" \n    allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" \n    allowfullscreen>\n</iframe>\n",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "width",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "574",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        },
+        {
+          "key": "height",
+          "type": "int",
+          "value": {
+            "stringToString": [],
+            "int": "371",
+            "string": "",
+            "text": "",
+            "select": [],
+            "constructorParams": [],
+            "custom": "",
+            "stringArray": [],
+            "bool": false,
+            "multiselect": [],
+            "connection": "",
+            "stringToAny": []
+          }
+        }
+      ],
+      "coords": {
+        "x": -3,
+        "y": -314
+      },
+      "calculatedNodeType": {
+        "id": "",
+        "name": "",
+        "alias": "",
+        "description": "",
+        "descriptionAttention": "",
+        "params": [
+          {
+            "key": "content",
+            "title": "",
+            "type": "text",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "width",
+            "title": "",
+            "type": "int",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          },
+          {
+            "key": "height",
+            "title": "",
+            "type": "int",
+            "required": false,
+            "description": "",
+            "options": {
+              "string": null,
+              "int": null,
+              "text": null,
+              "stringToString": null,
+              "select": null,
+              "stringArray": null,
+              "bool": null,
+              "connection": null,
+              "stringToAny": null
+            },
+            "default": {
+              "stringToString": [],
+              "int": "0",
+              "string": "",
+              "text": "",
+              "select": [],
+              "constructorParams": [],
+              "custom": "",
+              "stringArray": [],
+              "bool": false,
+              "multiselect": [],
+              "connection": "",
+              "stringToAny": []
+            },
+            "optional": false
+          }
+        ],
+        "systemInfo": null,
+        "icon": null,
+        "purposes": [],
+        "isPublic": false,
+        "billing": null
+      }
+    }
+  ],
+  "gateways": [
+    {
+      "nodeId": "685066453c6a72169b81d3fd",
+      "localNodeId": "",
+      "routes": [
+        {
+          "condition": {
+            "type": "",
+            "expression": {
+              "value": ""
+            }
+          },
+          "label": "",
+          "nodeId": "685066453c6a72169b81d3fc",
+          "localNodeId": "",
+          "isFallback": false,
+          "purpose": ""
+        }
+      ],
+      "name": "",
+      "purpose": "output"
+    },
+    {
+      "nodeId": "685066453c6a72169b81d3fc",
+      "localNodeId": "",
+      "routes": [
+        {
+          "condition": {
+            "type": "",
+            "expression": {
+              "value": ""
+            }
+          },
+          "label": "",
+          "nodeId": "685066453c6a72169b81d401",
+          "localNodeId": "",
+          "isFallback": false,
+          "purpose": ""
+        }
+      ],
+      "name": "",
+      "purpose": "output"
+    },
+    {
+      "nodeId": "685066453c6a72169b81d401",
+      "localNodeId": "",
+      "routes": [
+        {
+          "condition": {
+            "type": "",
+            "expression": {
+              "value": ""
+            }
+          },
+          "label": "",
+          "nodeId": "685066453c6a72169b81d3ff",
+          "localNodeId": "",
+          "isFallback": false,
+          "purpose": ""
+        }
+      ],
+      "name": "",
+      "purpose": "output"
+    }
+  ],
+  "spaceId": "38840",
+  "ownerId": "38840",
+  "version": "1",
+  "tags": [],
+  "release": false,
+  "latestLocalNodeId": "11",
+  "environments": [
+    {
+      "id": "685066453c6a72169b81d404",
+      "alias": "prod",
+      "name": "Prod",
+      "actualVersion": "",
+      "isActive": false
+    },
+    {
+      "id": "685066453c6a72169b81d405",
+      "alias": "dev",
+      "name": "Dev",
+      "actualVersion": "1",
+      "isActive": false
+    }
+  ],
+  "nodulInfo": {
+    "isNodul": false,
+    "isPublic": false,
+    "isCodul": false
+  },
+  "readOnly": false,
+  "executionBucket": "execution_bucket_default",
+  "isUsersPublic": false
+}
